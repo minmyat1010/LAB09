@@ -6,9 +6,10 @@
 </head>
 <body>
     <h2>Search for a Car Model</h2>
-    <form action="search_result.php" method="get">
-        <label for="model">Enter Car Model:</label>
-        <input type="text" name="model" id="model" required>
+
+    <form method="get" action="search_result.php">
+        Enter Car Model:
+        <input type="text" name="model">
         <input type="submit" value="Search">
     </form>
 </body>

@@ -1,12 +1,8 @@
 <?php
 $host = "localhost";
 $user = "root";
-$pass = "";
-$db = "exhibition";
+$pwd = "";
+$sql_db = "exhibition";
 
-$conn = mysqli_connect($host, $user, $pass, $db);
-
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-}
+$dbconn = mysqli_connect($host, $user, $pwd, $sql_db);
 ?>

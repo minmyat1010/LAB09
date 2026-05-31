@@ -10,7 +10,7 @@
     <h1>Car Exhibition List</h1>
 
     <?php
-        require_once("settings.php");       
+        require_once("setting.php");       
         $dbconn = @mysqli_connect($host, $user, $pwd, $sql_db);   
         if ($dbconn) {
             $query = "SELECT car_id, make, model, price, yom FROM cars";
